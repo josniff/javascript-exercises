@@ -1,14 +1,13 @@
+// repeats the string one time
 const repeatString = function (string, num) {
     let longString = "";
-    let i = 0;
-    while (i < num) {
-        longString += "hey";
+    let i = 1;
+    while (i <= num) {
+        longString += "hi";
         ++i;
     };
     return longString;
 };  
-
-
 
 
 
