@@ -10,10 +10,10 @@ describe('repeatString', () => {
   test.skip('repeats the string 1 times', () => {
     expect(repeatString('hi', 1)).toEqual('hi');
   });
-  test('repeats the string 0 times', () => {
+  test.skip('repeats the string 0 times', () => {
     expect(repeatString('bye', 0)).toEqual('');
   });
-  test.skip('does not use the built-in String repeat method', () => {
+  test('does not use the built-in String repeat method', () => {
     /* Even though there is a built-in String repeat method,
       in this exercise specifically, we want you to practise using loops */
     jest.spyOn(String.prototype, 'repeat').mockName('Built-in String repeat method');

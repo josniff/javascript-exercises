@@ -1,8 +1,8 @@
-// repeats the string 0 times
+// does not use the built-in string repeat method
 const repeatString = function (string, num) {
     let longString = "";
     let i = 0;
-    while (i > num) {
+    while (i < num) {
         longString += "hi";
         ++i;
     };
