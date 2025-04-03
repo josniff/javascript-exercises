@@ -1,8 +1,8 @@
-// repeats the string one time
+// repeats the string 0 times
 const repeatString = function (string, num) {
     let longString = "";
-    let i = 1;
-    while (i <= num) {
+    let i = 0;
+    while (i > num) {
         longString += "hi";
         ++i;
     };
