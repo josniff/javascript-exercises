@@ -1,10 +1,10 @@
-// repeats the string a random amount of times
+// works with blank strings
 const repeatString = function (string, num) {
     if (num < 0) return "ERROR";
     let longString = "";
     let i = 0;
     while (i < num) {
-        longString += "hey";
+        longString += "";
         ++i;
     };
     return longString;
