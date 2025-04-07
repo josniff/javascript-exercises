@@ -1,7 +1,8 @@
-// does not use the built-in string repeat method
+// Returns ERROR with negative numbers
 const repeatString = function (string, num) {
+    if (num < 0) return "ERROR";
     let longString = "";
-    let i = 0;
+    let i = -1;
     while (i < num) {
         longString += "hi";
         ++i;
