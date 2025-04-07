@@ -1,10 +1,10 @@
-// Returns ERROR with negative numbers
+// repeats the string a random amount of times
 const repeatString = function (string, num) {
     if (num < 0) return "ERROR";
     let longString = "";
-    let i = -1;
+    let i = 0;
     while (i < num) {
-        longString += "hi";
+        longString += "hey";
         ++i;
     };
     return longString;
