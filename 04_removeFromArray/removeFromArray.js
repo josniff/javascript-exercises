@@ -1,8 +1,8 @@
-// removes a single value
-const removeFromArray = function(num, index) {
-    num.splice (index - 1, 1);
-    return num; 
-};
+const removeFromArray = function(num, ...args) {
+
+    return num.filter(x => !args.includes(x));
+
+}
 
 // Do not edit below this line
 module.exports = removeFromArray;
